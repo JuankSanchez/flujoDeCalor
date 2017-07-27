@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd"
+vhdl xil_defaultlib  "../../../flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd"
+vhdl xil_defaultlib  "../../../flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd"
+vhdl xil_defaultlib  "../../../flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd"
+vhdl xil_defaultlib  "../../../flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd"
+
+# Do not sort compile order
+nosort

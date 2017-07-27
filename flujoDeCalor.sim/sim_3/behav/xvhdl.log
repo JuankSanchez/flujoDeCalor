@@ -1,0 +1,15 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_3/new/fsm_mem_celdas_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fsm_mem_celdas_tb

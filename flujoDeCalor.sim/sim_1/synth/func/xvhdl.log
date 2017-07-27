@@ -1,0 +1,13 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.sim/sim_1/synth/func/flujoDeCalor_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_0
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_1
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_2
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_3
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_4
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_5
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_6
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda_7
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor_tb

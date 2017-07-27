@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jul 27 11:27:49 2017
+# Process ID: 8595
+# Current directory: /home/juank/flujoDeCalor/flujoDeCalor.sim/sim_3/behav
+# Command line: wbtcv -mode batch -source /home/juank/flujoDeCalor/flujoDeCalor.sim/sim_3/behav/xsim.dir/fsm_mem_celdas_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/juank/flujoDeCalor/flujoDeCalor.sim/sim_3/behav/webtalk.log
+# Journal file: /home/juank/flujoDeCalor/flujoDeCalor.sim/sim_3/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/juank/flujoDeCalor/flujoDeCalor.sim/sim_3/behav/xsim.dir/fsm_mem_celdas_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/juank/flujoDeCalor/flujoDeCalor.sim/sim_3/behav/xsim.dir/fsm_mem_celdas_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jul 27 11:27:51 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2017.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 27 11:27:51 2017...

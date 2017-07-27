@@ -1,0 +1,170 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+ERROR: [VRFC 10-1412] syntax error near port [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:99]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:43]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+ERROR: [VRFC 10-91] clk is not declared [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:38]
+ERROR: [VRFC 10-1471] type error near dout ; current type array_std_logic_vector_9; expected type std_logic_vector [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:38]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:9]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+ERROR: [VRFC 10-1412] syntax error near port [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:99]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:43]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+ERROR: [VRFC 10-91] clk is not declared [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:38]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:9]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+ERROR: [VRFC 10-1412] syntax error near port [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:99]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:43]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+ERROR: [VRFC 10-91] clk is not declared [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:38]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:9]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+ERROR: [VRFC 10-1412] syntax error near port [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:99]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd:43]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+ERROR: [VRFC 10-91] clk is not declared [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:38]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:9]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+ERROR: [VRFC 10-91] clk is not declared [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:38]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd:9]
+INFO: [VRFC 10-240] VHDL file /home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity blk_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/arrayStdLogicVector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/calculoDeCelda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculoDeCelda
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/flujoDeCalor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flujoDeCalor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sources_1/new/tranferenciaACeldas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tranferenciaACeldas
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_2/new/matrizDeCalor3x3v1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrizDeCarlor3x3v1_tb

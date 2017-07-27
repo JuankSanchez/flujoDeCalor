@@ -1,0 +1,13 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.1/bin/unwrapped/lnx64.o/xelab -wto a98be7e6ea464e059e7ebe959c3bf524 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot flujoDeCalor_tb_func_synth xil_defaultlib.flujoDeCalor_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <in_derecho> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:32]
+ERROR: [VRFC 10-718] formal port <in_superior> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:33]
+ERROR: [VRFC 10-718] formal port <in_inferior> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:34]
+ERROR: [VRFC 10-718] formal port <in_izquierdo> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:35]
+ERROR: [VRFC 10-718] formal port <clk> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:36]
+ERROR: [VRFC 10-718] formal port <reset> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:37]
+ERROR: [VRFC 10-718] formal port <out_celda> does not exist in entity <flujoDeCalor>.  Please compare the definition of block <flujoDeCalor> to its component declaration and its instantion to detect the mismatch. [/home/juank/flujoDeCalor/flujoDeCalor.srcs/sim_1/new/flujoDeCalor_tb.vhd:38]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit flujodecalor_tb in library work failed.
