@@ -1,4 +1,4 @@
-Running: xsim.dir/fsm_mem_celdas_tb_behav/xsimk -simmode gui -wdb fsm_mem_celdas_tb_behav.wdb -simrunnum 0 -socket 49425
+Running: xsim.dir/fsm_mem_celdas_tb_behav/xsimk -simmode gui -wdb fsm_mem_celdas_tb_behav.wdb -simrunnum 0 -socket 41277
 Design successfully loaded
 Design Loading Memory Usage: 42416 KB (Peak: 42416 KB)
 Design Loading CPU Usage: 10 ms

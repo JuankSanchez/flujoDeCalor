@@ -58,6 +58,8 @@ architecture Behavioral of flujoDeCalor is
     
     -- CELDAS
     signal calcular     : BOOLEAN;
+    signal finCalculo   : BOOLEAN;
+    signal contar       : BOOLEAN;
     signal celdas       : ARRAY_STD_LOGIC_VECTOR_16;
     signal in_tderecha  : ARRAY_STD_LOGIC_VECTOR_16;
     signal in_tsuperior : ARRAY_STD_LOGIC_VECTOR_16;
@@ -68,7 +70,7 @@ architecture Behavioral of flujoDeCalor is
     -- CONTROL  
     signal cuenta : BOOLEAN;
     
-    --signal out_celda,in_derecho,in_superior,in_inferior,in_izquierdo: STD_LOGIC_VECTOR (31 downto 0);
+    -- Bloque de MEMORIA
     component blk_mem_gen_0 
         PORT (
             clka    : IN STD_LOGIC;
@@ -80,6 +82,7 @@ architecture Behavioral of flujoDeCalor is
      );
     END component;
     
+    -- Calcula la temperatura en la celda
     component calculoDeCelda 
         Port (  
             in_derecho  : in    STD_LOGIC_VECTOR (N downto 0);
@@ -92,23 +95,25 @@ architecture Behavioral of flujoDeCalor is
             out_celda   : out   STD_LOGIC_VECTOR (N downto 0)
         );
     end component;
-begin  
-     
+begin    
      
     SYNC_PROC : process (clk)
     begin
         if rising_edge(clk) then
             if (rst) then
-                contador_reg <= "0000";
+                --contador_reg <= "0000";
+                contador <= "0000";
                 estado <= ramACeldas;
             else
-                contador_reg <= contador;
+                if(cuenta) then
+                    contador <= contador + 1;
+                end if;
                 estado <= estado_siguiente;
             end if;
         end if;
     end process;
 
-    -- generacion de se;ales de CONTROL
+    -- generacion de señales de CONTROL
     COMBINACIONAL_SALIDA: process (estado)
     begin
          case (estado) is
@@ -117,21 +122,24 @@ begin
                 ena <= '1';
                 calcular <= false;
                 cuenta <= true;
+                finCalculo <= false;
             when calcularTemperatura =>
                 ena <= '0';
                 calcular <= true;
                 cuenta <= false;
+                finCalculo <= true;
             when celdasARam =>
                 wea <=  "1";
                 ena <= '1';
                 calcular <= false;
                 cuenta <= true;
+                finCalculo <= false;
          end case;
     end process;
 
-    PROC_ESTADO_SIGUIENTE: process (estado, cambiaDeEstado)
+    -- estado
+    PROC_ESTADO_SIGUIENTE: process (cambiaDeEstado)
     begin
-         --estado_siguiente <= ramACeldas;
          case (estado) is
             when ramACeldas =>
                 if (cambiaDeEstado) then
@@ -142,24 +150,27 @@ begin
                     estado_siguiente <= celdasARam;
                 end if;
              when celdasARam =>
-                estado_siguiente <= ramACeldas;
+                if (cambiaDeEstado) then
+                    estado_siguiente <= ramACeldas;
+                end if;
          end case;
     end process; 
-     
-    PROC_CONTADOR: process (clk)
-    begin
-        if rising_edge(clk) then
-            if (rst) then
-                contador <= "0000";
-            else
-                if (cuenta) then
-                   contador <= contador + 1;
-                else
-                    contador <= "0000";
-                end if;
-            end if;
-        end if;
-    end process;
+    
+    -- contador
+--    PROC_CONTADOR: process (clk)
+--    begin
+--        if rising_edge(clk) then
+--            if (rst) then
+--                contador <= "0000";
+--            else
+--                if (cuenta) then
+--                   contador <= contador + 1;
+--                else
+--                    contador <= "0000";
+--                end if;
+--            end if;
+--        end if;
+--    end process;
     
 --    PROC_CELDAS: PROCESS (contador_reg)
 --    begin
@@ -169,6 +180,7 @@ begin
 --           din <= celdas(to_integer(unsigned(contador_reg)));
 --        end if;
 --    end process;
+
     PROC_CELDAS : process (clk)
     begin
         if rising_edge(clk) then
@@ -179,9 +191,9 @@ begin
             end if;
         end if;
     end process;    
-    
-    cambiaDeEstado <=  true when contador_reg="1111"  else false;
-     
+   
+    cambiaDeEstado <=  true when ((cuenta and (contador="1111"))or(finCalculo and (not cuenta))) else false;
+        
     memoria: blk_mem_gen_0 port map(
                     clka    => clk,
                     ena     => ena,
@@ -204,7 +216,6 @@ begin
                     out_celda => celdas(i)
                  );
             end generate;
-    
         end generate;
      
      

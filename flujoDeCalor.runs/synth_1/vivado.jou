@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Sep  1 14:25:10 2017
+# Process ID: 3928
+# Current directory: /home/juank/flujoDeCalor/flujoDeCalor.runs/synth_1
+# Command line: vivado -log flujoDeCalor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source flujoDeCalor.tcl
+# Log file: /home/juank/flujoDeCalor/flujoDeCalor.runs/synth_1/flujoDeCalor.vds
+# Journal file: /home/juank/flujoDeCalor/flujoDeCalor.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source flujoDeCalor.tcl -notrace

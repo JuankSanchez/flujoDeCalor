@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fsm_mem_celdas_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="array_std_logic_vector" />
+            <top_module name="fsm_mem_celdas_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="15833333333fs"></ZoomStartTime>
+      <ZoomEndTime time="80826898327fs"></ZoomEndTime>
+      <Cursor1Time time="43975547000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/fsm_mem_celdas_tb/clk_fc">
+      <obj_property name="ElementShortName">clk_fc</obj_property>
+      <obj_property name="ObjectShortName">clk_fc</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/reset_fc">
+      <obj_property name="ElementShortName">reset_fc</obj_property>
+      <obj_property name="ObjectShortName">reset_fc</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/fin">
+      <obj_property name="ElementShortName">fin</obj_property>
+      <obj_property name="ObjectShortName">fin</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/CUT/estado">
+      <obj_property name="ElementShortName">estado</obj_property>
+      <obj_property name="ObjectShortName">estado</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/CUT/estado_siguiente">
+      <obj_property name="ElementShortName">estado_siguiente</obj_property>
+      <obj_property name="ObjectShortName">estado_siguiente</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/CUT/cambiaDeEstado">
+      <obj_property name="ElementShortName">cambiaDeEstado</obj_property>
+      <obj_property name="ObjectShortName">cambiaDeEstado</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/CUT/contar">
+      <obj_property name="ElementShortName">contar</obj_property>
+      <obj_property name="ObjectShortName">contar</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fsm_mem_celdas_tb/CUT/celdas">
+      <obj_property name="ElementShortName">celdas[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">celdas[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fsm_mem_celdas_tb/CUT/cuenta">
+      <obj_property name="ElementShortName">cuenta</obj_property>
+      <obj_property name="ObjectShortName">cuenta</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fsm_mem_celdas_tb/CUT/contador">
+      <obj_property name="ElementShortName">contador[3:0]</obj_property>
+      <obj_property name="ObjectShortName">contador[3:0]</obj_property>
+   </wvobject>
+</wave_config>
